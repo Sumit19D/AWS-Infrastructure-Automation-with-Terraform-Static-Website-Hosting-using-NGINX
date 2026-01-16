@@ -36,6 +36,30 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 * NGINX is installed and configured using Terraform user_data
 
+## 📋 Prerequisites
+
+Before deploying this project, ensure the following tools and configurations are available on your system:
+
+🔹 1️⃣ Terraform
+
+Terraform is required to provision AWS infrastructure using Infrastructure as Code (IaC).
+
+Install Terraform from: https://developer.hashicorp.com/terraform/downloads
+
+Verify installation:
+
+* terraform --version
+
+🔹 2️⃣ AWS CLI
+
+AWS CLI is required for authentication and interaction with AWS services.
+
+Install AWS CLI from: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+Verify installation:
+
+* aws --version
+
 ## 🚀 Deployment Steps
 
 1️⃣ Clone the Repository
@@ -44,15 +68,19 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 * cd AWS-Infrastructure-Automation-with-Terraform
 
-2️⃣ Initialize Terraform
+2️⃣ Connect to AWS
+
+* aws configure
+
+3️⃣ Initialize Terraform
 
 * terraform init
 
-3️⃣ Validate the Configuration
+4️⃣ Validate the Configuration
 
 * terraform validate
 
-4️⃣ Apply Terraform Configuration
+5️⃣ Apply Terraform Configuration
 
 * terraform apply --auto-approve
 
@@ -63,5 +91,11 @@ Once deployment is complete, Terraform outputs the public IP of the EC2 instance
 Access the static website in a browser:
 
 http://(EC2-PUBLIC-IP)
+
+## 🧹 Clean Up Resources
+
+To avoid unnecessary AWS charges:
+
+* terraform destroy
 
 
