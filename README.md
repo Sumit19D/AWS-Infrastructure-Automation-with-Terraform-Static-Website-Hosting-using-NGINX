@@ -40,8 +40,28 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+* git clone https://github.com/Sumit19D/AWS-Infrastructure-Automation-with-Terraform.git
 
+* cd AWS-Infrastructure-Automation-with-Terraform
+
+2️⃣ Initialize Terraform
+
+terraform init
+
+3️⃣ Validate the Configuration
+
+terraform validate
+
+4️⃣ Apply Terraform Configuration
+
+terraform apply --auto-approve
+
+## 🌐 Access the Application
+
+Once deployment is complete, Terraform outputs the public IP of the EC2 instance.
+
+Access the static website in a browser:
+
+http://<EC2-PUBLIC-IP>
 
 
