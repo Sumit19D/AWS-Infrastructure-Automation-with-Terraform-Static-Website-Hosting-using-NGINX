@@ -27,15 +27,10 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 ```
 .
-
 ├── main.tf
-
 ├── variables.tf
-
 ├── outputs.tf
-
 ├── provider.tf
-
 └── README.md
 ```
 
