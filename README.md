@@ -28,9 +28,9 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 ```
 .
 ├── main.tf
-├── variables.tf
 ├── outputs.tf
 ├── provider.tf
+├── variables.tf
 └── README.md
 ```
 
@@ -51,7 +51,7 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 Before deploying this project, ensure the following tools and configurations are available on your system:
 
-🔹 1️⃣ Terraform
+1️⃣ Terraform
 
 * Terraform is required to provision AWS infrastructure using Infrastructure as Code (IaC).
 
@@ -61,7 +61,7 @@ Before deploying this project, ensure the following tools and configurations are
   * terraform --version
 
 
-🔹 2️⃣ AWS CLI
+2️⃣ AWS CLI
 
 * AWS CLI is required for authentication and interaction with AWS services.
 
