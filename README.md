@@ -92,7 +92,7 @@ Once deployment is complete, Terraform outputs the public IP of the EC2 instance
 
 Access the static website in a browser:
 
-* http://<EC2-PUBLIC-IP>
+* http://<<EC2-PUBLIC-IP>>
 
 
 ## 🧹 Clean Up Resources
