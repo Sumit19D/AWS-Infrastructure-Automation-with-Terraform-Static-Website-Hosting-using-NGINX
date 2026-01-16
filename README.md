@@ -24,17 +24,16 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 * **Version Control:** Git & GitHub
 
 
-## 📂 Project Structure
-.
+## ⚙️ Infrastructure Automation Details
 
-├── main.tf
+* Terraform is used to automatically provision AWS resources
 
-├── variables.tf
+* EC2 instance is launched inside a public subnet
 
-├── outputs.tf
+* Security Groups are configured to allow:
+  * SSH access for administration
+  * HTTP/HTTPS access for web traffic
 
-├── provider.tf
-
-└── README.md
+* NGINX is installed and configured using Terraform user_data
 
 
