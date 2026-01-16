@@ -7,19 +7,19 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 ## 🛠️ Technologies Used
 
-**Cloud Provider:** AWS
+* **Cloud Provider:** AWS
 
-**Infrastructure as Code:** Terraform
+* **Infrastructure as Code:** Terraform
 
-**Compute Service:** Amazon EC2
+* **Compute Service:** Amazon EC2
 
-**Networking:** VPC, Subnet, IGW, Route Table, Security Groups
+* **Networking:** VPC, Subnet, IGW, Route Table, Security Groups
 
-**Web Server:** NGINX
+* **Web Server:** NGINX
 
-**Operating System:** Amazon Linux / Ubuntu
+* **Operating System:** Amazon Linux / Ubuntu
 
-**Version Control:** Git & GitHub
+* **Version Control:** Git & GitHub
 
 ## 📂 Project Structure
 .
