@@ -38,7 +38,9 @@ The goal of this project is to showcase hands-on experience with Infrastructure 
 
 * Terraform is used to automatically provision AWS resources
 
-* EC2 instance is launched inside a public subnet
+* Created VPC, public and private subnets using Terraform
+
+* Launched EC2 instances in both public and private subnets
 
 * Security Groups are configured to allow:
   * SSH access for administration
@@ -104,12 +106,13 @@ terraform apply --auto-approve
 
 ## 🌐 Access the Application
 
-Once deployment is complete, Terraform outputs the public IP of the EC2 instance.
+Once deployment is complete, Terraform outputs the IP of the Public EC2 instance.
 
 Access the static website in a browser:
 ```
-http://(EC2-PUBLIC-IP)
+http://(PUBLIC-EC2-IP)
 ```
+Private EC2 instance can be accessible (SSH) only form the the public subnet from same VPC.
 
 ## 🧹 Clean Up Resources
 
